@@ -2,12 +2,16 @@ body {
     background-color: #FFFFE4;
     font-family: Arial, sans-serif;
     margin: 0;
-    width: 100%;
-    word-wrap:break-word;
 }
 
 img {
     margin: 5px;
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
 }
 
 h1 {
@@ -21,6 +25,9 @@ h2 {
     text-align: center;
 }
 
+p {
+    text-indent: 4ex;
+}
 
 .grayBlock {
     background: #7A7A73;
@@ -55,6 +62,7 @@ h2 {
 }
 
 .button p{
+    text-indent: 0;
     display: table-cell;
     text-decoration: none;
     vertical-align: middle;
@@ -62,12 +70,13 @@ h2 {
 
 .grayHr {
     background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(122,122,115,1) 50%,rgba(255,255,255,0) 100%);
-    border: 0px;
+    border: 0;
     height: 5px;
     width: 90%;
 }
 
 #menu {
+    position: fixed;
     float: left;
     margin-top: 0;
     width: 200px;
@@ -75,6 +84,7 @@ h2 {
 
 #head {
     width: auto;
+    min-width: 800px;
     margin: 10px;
     font-size: x-large;
     text-shadow: 3px 3px 10px black;
@@ -97,8 +107,9 @@ h2 {
 }
 
 #center {
-    width: 1000px;
-    margin: 0 auto;
+    width: calc(100% - 20px);
+    min-width:800px;
+    margin: 0 10px;
     padding: 0;
 }
 

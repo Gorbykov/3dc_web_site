@@ -4,7 +4,34 @@
     <meta charset="UTF-8">
     <title>3DCOULOMB</title>
     <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <style type="text/css">
+
+        #content {
+            box-sizing: border-box;
+        }
+
+        .tile {
+            float: left;
+            width: 7cm;
+            height: calc(7cm + 57px);
+            margin: 5px;
+            padding: 5px;
+            background-color: rgba(90, 90, 90, 0.75);
+            border-radius: 5px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .tile img {
+            max-width: 100%;
+            max-height: calc(100% - 57px);
+            overflow: hidden;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -27,7 +54,7 @@
 <div id="center">
 
     <div id="menu" class="grayBlock">
-        <h2 align="center"><b>Меню</b></h2>
+        <h2 align="center">Меню</h2>
         <a href="index.html" class="button">
             <p>Главная</p>
         </a>
@@ -48,19 +75,30 @@
         </a>
     </div>
     <div id="content" class="grayBlock">
-        <h2 align="center">Добро пожаловать!</h2>
-        <p>
-            <font color="orange"><b>3DCoulomb</b></font> - программа для трехмерной визуализации дествия кулоновских сил.
-        </p>
-        <p>
-            Эта программа была создана для использованния в качестве деманстрационного материала на уроках физики и дома,
-            в старших классах, при изучении темы: "Закон Кулона". Она способна визуализировать взаимодействиие точечных
-            зарядов, создавать из них сложные структуры по уравнениям</p>
-        <p>
-            Yf lf
-        </p>
-    </div>
+        <h2 align="center">Галерея</h2>
+        <hr class="whiteHr">
+        <p>Нажав на кнопку можно скачать файл сохранения</p>
+        <div class="tile">
+            <img src="images/Sphere.PNG" alt="Сфера" tabindex="1">
+            <a href="Saves/Сфера.csxml" class="button">
+                <p>Сфера</p>
+            </a>
+        </div>
+        <div class="tile">
+            <img src="images/Плоский%20конденсатор.PNG" alt="Плоский конденсатор" tabindex="1">
+            <a href="Saves/Плоский%20конденсатор.csxml" class="button">
+                <p>Плоский конденсатор</p>
+            </a>
+        </div>
+        <div class="tile">
+            <img src="images/Поле%20двух%20зарядов.PNG" alt="Поле двух зарядов" tabindex="1">
+            <a href="Saves/Поле%20двух%20зарядов.csxml" class="button">
+                <p>Поле двух зарядов</p>
+            </a>
+        </div>
 
+        <hr class="whiteHr">
+    </div>
 
 </div>
 <div id="footer">

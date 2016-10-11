@@ -1,0 +1,176 @@
+body {
+    background-color: #FFFFE4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+figure {
+    max-width: 50%;
+    margin: 10px;
+}
+
+a p img {
+    margin-left: 1em;
+}
+
+figure img {
+    background-color: #FFFFE4;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+img:focus {
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0 10px whitesmoke;
+    max-width: calc(100% - 2em);
+    max-height: calc(100% - 2em);
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    word-wrap: break-word;
+    font-size: smaller;
+}
+
+ul {
+    list-style: inside url("../images/netral_ico.png");
+    padding: 0;
+}
+
+ul ul {
+    list-style: inside disc none;
+}
+
+ul ul ul {
+    list-style: inside square none;
+}
+
+ol {
+    list-style: inside decimal none;
+}
+
+h1 {
+    color: orange;
+    font-family: "MiraC", "Arial Black", Arial, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-indent: 4ex;
+}
+
+b {
+    color: orange;
+}
+
+.grayBlock, figure {
+    background: rgba(90, 90, 90, 0.75);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+
+.button {
+    font-size: 12pt;
+    height: 40px;
+    width: calc(100% - 10px);
+    max-width: 400px;
+    text-align: center;
+    color: #323232;
+    text-decoration: none;
+    margin: 5px auto;
+    border-radius: 5px;
+    background: white;
+    /*transition: 0.2s;*/
+    border: 1px solid black;
+    display: table;
+}
+
+.button:hover {
+    background-color: #f5f5f5;
+}
+
+.button:active {
+    background-color: #C8C8C8;
+}
+
+.button p {
+    text-indent: 0;
+    display: table-cell;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.grayHr {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(122, 122, 115, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    border: 0;
+    height: 5px;
+    width: 90%;
+}
+
+.whiteHr {
+    background: linear-gradient(to right, rgba(122, 122, 115, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(122, 122, 115, 0) 100%);
+    border: 0;
+    height: 5px;
+    width: 90%;
+    float: none;
+    clear: both;
+}
+
+
+#menu {
+    position: fixed;
+    float: left;
+    margin-top: 0;
+    width: 200px;
+}
+
+#head {
+    width: auto;
+    min-width: 800px;
+    margin: 10px;
+    font-size: x-large;
+    text-shadow: 3px 3px 10px black;
+}
+
+#head table {
+    margin: auto;
+}
+
+#head a {
+    text-decoration: none;
+}
+
+#content {
+    width: auto;
+    padding: 20px;
+    margin-left: 240px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#center {
+    width: calc(100% - 20px);
+    min-width: 800px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+#footer {
+    text-align: right;
+    padding: 1em;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Charges>
+    <Charge>
+      <Type>Sphere</Type>
+      <Name>A</Name>
+      <q>3</q>
+      <Position>
+        <x>-10.15</x>
+        <y>0</y>
+        <z>0</z>
+      </Position>
+    </Charge>
+    <Charge>
+      <Type>Sphere</Type>
+      <Name>B</Name>
+      <q>-7</q>
+      <Position>
+        <x>7.44</x>
+        <y>0</y>
+        <z>0</z>
+      </Position>
+    </Charge>
+    <Charge xsi:type="Structure_x0020_Data">
+      <Type>StructureObj</Type>
+      <Name>S</Name>
+      <q>0</q>
+      <Position>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </Position>
+      <Arg>0</Arg>
+      <MinX>-21</MinX>
+      <MinY>-21</MinY>
+      <MinZ>-21</MinZ>
+      <MaxX>21</MaxX>
+      <MaxY>21</MaxY>
+      <MaxZ>21</MaxZ>
+      <Delta>2</Delta>
+    </Charge>
+  </Charges>
+  <Structures />
+</SceneState>

@@ -30,6 +30,7 @@ img:focus {
     box-shadow: 0 0 10px whitesmoke;
     max-width: calc(100% - 2em);
     max-height: calc(100% - 2em);
+    width: auto;
 }
 
 figcaption {
@@ -138,6 +139,7 @@ b {
     float: left;
     margin-top: 0;
     width: 200px;
+    max-height:100%;
 }
 
 #head {
@@ -161,7 +163,7 @@ b {
     padding: 20px;
     margin-left: 240px;
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 14pt;
 }
 
 #center {

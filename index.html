@@ -6,9 +6,18 @@
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/styles.css">
     <style>
+
+        #content .button{
+            max-width: none;
+            margin: 5px;
+            float: left;
+            width: calc(50% - 20px);
+        }
+
         #bigLogo{
             width: 100%;
         }
+
     </style>
 </head>
 <body>
@@ -55,6 +64,7 @@
     <div id="content">
         <img id="bigLogo" src="images/Log_3dc_web.png">
         <div class="grayBlock">
+            <hr class="whiteHr">
             <p>
                 <font color="orange"><b>3DCoulomb</b></font> - программа для трехмерной визуализации дествия кулоновских
                 сил.
@@ -63,10 +73,19 @@
                 Эта программа была создана для использованния в качестве деманстрационного материала на уроках физики и
                 дома,
                 в старших классах, при изучении темы: "Закон Кулона". Она способна визуализировать взаимодействиие точечных
-                зарядов, создавать из них сложные структуры по уравнениям</p>
-            <p>
-                На этом сайте вы сможете ознакомится с данным проектом, скачать его или даже запустить онлайн.
+                зарядов, создавать из них сложные структуры по уравнениям
             </p>
+
+            <a class="button" href="builds/3DCoulomb_v0.1.3(BELSEF)_WebPlayer/3DCoulomb_v0.1.3(BELSEF)_WebPlayer.html">
+                <p>
+                    Запустить онлайн
+                    <img src="images/unity-logo.png" width="82px" height="30px" style="vertical-align: middle;">
+                </p>
+            </a>
+            <a href="builds/3DC_v1.4_Win64.rar" class="button">
+                <p> Скачать<img src="images/Windows_logo_-_2012_derivative.svg.png" width="30px" height="30px" style="vertical-align: middle;">x64</p>
+            </a>
+            <hr class="whiteHr">
         </div>
     </div>
 

@@ -42,6 +42,7 @@ figcaption {
 ul {
     list-style: inside url("../images/netral_ico.png");
     padding: 0;
+    margin: 2ex;
 }
 
 ul ul {

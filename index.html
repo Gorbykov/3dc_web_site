@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>3DCOULOMB</title>
+    <meta name="author" content="Gorbykov Andrei">
+    <meta name="description" content="Трехмерное представление действия кулоновских сил. Программа «3DCharge» наглядно покажет как взаимодействуют электрические заряды">
+    <meta name="keywords" content="">
+    <title>3DCHARGE</title>
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/styles.css">
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
     <style>
 
         #content {
@@ -29,8 +33,39 @@
         }
 
     </style>
+
 </head>
 <body>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter40394405 = new Ya.Metrika({
+                    id:40394405,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/40394405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 <div id="head">
     <a href="index.html">
@@ -40,7 +75,7 @@
                     <img src="favicon.png" height="100px" width="100px">
                 </td>
                 <td>
-                    <h1><b>3DCOULOMB</b></h1>
+                    <h1><b>3DCHARGE</b></h1>
                 </td>
             </tr>
         </table>
@@ -76,7 +111,7 @@
         <div class="grayBlock">
             <hr class="whiteHr">
             <p>
-                <font color="orange"><b>3DCoulomb</b></font> - программа для трехмерной визуализации дествия кулоновских
+                <font color="orange"><b>3DCharge</b></font> - программа для трехмерной представления действия кулоновских
                 сил.
             </p>
             <p>
@@ -85,7 +120,7 @@
                 зарядов, а также создавать из них сложные структуры по уравнениям.
             </p>
 
-            <a class="button" href="builds/3DCoulomb_v0.1.3(BELSEF)_WebPlayer/3DCoulomb_v0.1.3(BELSEF)_WebPlayer.html">
+            <a class="button" href="builds/3DCharge_v0.1.3(BELSEF)_WebPlayer/3DCharge_v0.1.3(BELSEF)_WebPlayer.html">
                 <p>
                     Запустить онлайн
                     <img src="images/unity-logo.png" width="82px" height="30px" style="vertical-align: middle;">
@@ -103,5 +138,9 @@
 <div id="footer">
     <p>Gorbukov Andrei <<a href="mailto:gorbukov@gmail.com">gorbukov@gmail.com</a>>, 2016</p>
 </div>
+<!--SCRIPTS-->
+<script type="text/javascript" src="StickyMenu.js">
+</script>
+<!--END SCRIPTS-->
 </body>
 </html>
